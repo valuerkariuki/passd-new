@@ -1,5 +1,3 @@
-import { socialLinks } from '../config/socials';
-
 export default function Footer() {
   return (
     <footer className="bg-[#00172D] text-white py-12 px-6 mt-20">
@@ -22,10 +20,10 @@ export default function Footer() {
             <a href="/contact" className="hover:text-[#C9A050] transition">Contact</a>
           </nav>
           
-          {/* Dynamic Social Icons */}
+          {/* Social Links */}
           <div className="flex gap-6">
             <a 
-              href={socialLinks.linkedin.url} 
+              href="https://www.linkedin.com/company/passd-net/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-[#C9A050] hover:text-white font-bold transition"
@@ -33,7 +31,7 @@ export default function Footer() {
               LinkedIn
             </a>
             <a 
-              href={socialLinks.instagram.url} 
+              href="https://www.instagram.com/passdapc?igsh=b2Q5ZWVzcWxmMTNk" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-[#C9A050] hover:text-white font-bold transition"
@@ -42,7 +40,6 @@ export default function Footer() {
             </a>
           </div>
         </div>
-
       </div>
     </footer>
   );
