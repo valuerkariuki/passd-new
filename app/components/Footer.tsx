@@ -6,7 +6,9 @@ export default function Footer() {
         {/* Brand Info */}
         <div className="text-center md:text-left">
           <h2 className="text-2xl font-bold">Passd.net</h2>
-          <p className="text-slate-400 text-sm mt-2">© 2026 Passd.net. All rights reserved.</p>
+          <p className="text-slate-400 text-sm mt-2">
+            © 2026 Passd.net. All rights reserved. Registered in England and Wales. Cambridgeshire.
+          </p>
         </div>
 
         {/* Navigation & Socials */}
