@@ -56,7 +56,7 @@ export default function ContactPage() {
         <p className="font-bold text-[#00172D] mb-4">Follow us</p>
         <div className="flex justify-center gap-6 text-[#C9A050] font-bold">
           <a 
-            href={socialLinks.linkedin.url} 
+            href="https://www.linkedin.com/company/passd-net/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="hover:underline"
@@ -64,7 +64,7 @@ export default function ContactPage() {
             LinkedIn
           </a>
           <a 
-            href={socialLinks.instagram.url} 
+            href="https://www.instagram.com/passdapc/"
             target="_blank" 
             rel="noopener noreferrer" 
             className="hover:underline"
